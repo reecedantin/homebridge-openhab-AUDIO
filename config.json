@@ -1,0 +1,25 @@
+{
+    "bridge": {
+        "name": "Homebridge 2",
+        "username": "CC:87:A6:6A:A9:3D",
+        "port": 51827,
+        "pin": "031-45-154"
+    },
+
+	"description": "EXAMPLE CONFIG FILE-12/4/16",
+
+	"accessories": [],
+	"platforms": [
+        {
+            "platform": "openHAB-AUDIO",
+            "name": "openHAB-AUDIO",
+            "host": "192.168.0.14",
+            "port": "8080",
+            "sitemap": "dantin2",
+            "useLabelForName": true,
+            "customAttrs": [],
+            "inputs" : ["Piano","AUX","Cable 1","Cable 2","Cable 3","Cable DVR","Apple TV","Family Room"],
+            "outputs" : ["Outside","Master","Living Room","Kitchen","Balcony","Gus's Room","Reece's Room","Girls Room"]
+        }
+    ]
+}
