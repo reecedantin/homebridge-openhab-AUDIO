@@ -1,0 +1,45 @@
+{
+  "name": "homebridge-openhab-AUDIO",
+  "version": "0.1.33",
+  "description": "Homebridge plugin for openHAB *modified by REECE DANTIN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: configure and run homebridge to start\" && exit 1"
+  },
+  "engines": {
+    "node": ">4.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reecedantin/homebridge-openhab-AUDIO.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "openHAP-AUDIO",
+    "homekit",
+    "z-wave",
+    "Siri"
+  ],
+  "dependencies": {
+    "ws": "^1.1.1",
+    "request": "^2.65.0"
+  },
+  "author": {
+    "name": "reecedantin"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/reecedantin/homebridge-openhab-AUDIO/issues"
+  },
+  "homepage": "https://github.com/reecedantin/homebridge-openhab-AUDIO#readme",
+  "gitHead": "04e3f31419108f8adf56a3cee8470597fbf0af3f",
+  "_id": "homebridge-openHAP-AUDIO@0.1.31",
+  "_shasum": "8f2f3027d75a536d5402966d694eac172a21e01f",
+  "_from": "homebridge-openHAP-AUDIO@*",
+  "_npmVersion": "3.5.3",
+  "_nodeVersion": "5.1.0",
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/homebridge-openHAP-AUDIO/-/homebridge-openHAP-AUDIO-0.1.31.tgz"
+}
