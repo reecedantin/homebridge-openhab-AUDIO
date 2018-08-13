@@ -1,7 +1,7 @@
 {
     "bridge": {
         "name": "Homebridge 2",
-        "username": "CC:87:A6:6A:A9:3D",
+        "username": "CC:87:A3:2A:A9:3D",
         "port": 51827,
         "pin": "031-45-154"
     },
@@ -11,9 +11,9 @@
 	"accessories": [],
 	"platforms": [
         {
-            "platform": "openHAB-AUDIO",
+            "platform": "HIFI2",
             "name": "openHAB-AUDIO",
-            "host": "192.168.0.14",
+            "host": "10.0.0.100",
             "port": "8080",
             "sitemap": "dantin2",
             "useLabelForName": true,
